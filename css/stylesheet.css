@@ -1,0 +1,1134 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: hidden;
+}
+
+img {
+    cursor: pointer;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-weight: bold;
+    outline: 2px solid black;
+    border-radius: 2px;
+}
+
+h4{
+  color: darkblue;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 40px;
+  margin: 0%;
+  margin-left: 43px;
+}
+
+p{
+  padding-top: 20px;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-weight: normal;
+}
+
+.element-titles{
+    font-size: 40px;
+}
+
+#top-section{
+    grid-column: 1 / span 5;
+    width: 100%;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.myBtn1 {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  background-color: rgb(255, 255, 255);
+  outline: 2px solid darkblue;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+  .myBtn2 {
+    grid-column-start: 10;
+    grid-column-end: 18;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  .myBtn3 {
+    grid-column-start: 19;
+    grid-column-end: 34;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  .myBtn4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;  
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px; 
+    outline: 2px solid darkblue;
+    border: none; 
+    border-radius: 2px;
+  }
+  .myBtn6 {
+    grid-column-start: 10;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px; 
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px; 
+  }
+  .myBtn7 {
+    grid-column-start: 14;
+    grid-column-end: 18;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn8 {
+    grid-column-start: 19;
+    grid-column-end: 22;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn9 {
+    grid-column-start: 22;
+    grid-column-end: 25;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn10 {
+    grid-column-start: 25;
+    grid-column-end: 28;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn11 {
+    grid-column-start: 28;
+    grid-column-end: 31;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn12 {
+    grid-column-start: 31;
+    grid-column-end: 34;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn13 {
+    grid-column-start: 1;
+    grid-column-end: 34;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: orange;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn14 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  .myBtn15 {
+    grid-column-start: 13;
+    grid-column-end: 22;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  .myBtn16 {
+    grid-column-start: 25;
+    grid-column-end: 34;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  .myBtn17 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn18 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn19 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn20 {
+    grid-column-start: 13;
+    grid-column-end: 16;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn21 {
+    grid-column-start: 16;
+    grid-column-end: 19;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn22 {
+    grid-column-start: 19;
+    grid-column-end: 22;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn23 {
+    grid-column-start: 25;
+    grid-column-end: 28;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn24 {
+    grid-column-start: 28;
+    grid-column-end: 31;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn25 {
+    grid-column-start: 31;
+    grid-column-end: 34;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+
+
+
+  .myBtn26 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn27 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn28 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn29 {
+    grid-column-start: 13;
+    grid-column-end: 16;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn30 {
+    grid-column-start: 16;
+    grid-column-end: 19;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+  .myBtn31 {
+    grid-column-start: 19;
+    grid-column-end: 22;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn32 {
+    grid-column-start: 25;
+    grid-column-end: 28;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn33 {
+    grid-column-start: 28;
+    grid-column-end: 31;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn34 {
+    grid-column-start: 31;
+    grid-column-end: 34;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 20px;
+    outline: 2px solid darkblue;
+    border: none;
+  }
+
+  .myBtn35 {
+    grid-column-start: 13;
+    grid-column-end: 22;
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    background-color: orange;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+
+
+
+  .myBtn36 {
+    grid-column-start: 10;
+    grid-column-end: 25;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+
+  .myBtn37 {
+    grid-column-start: 1;
+    grid-column-end: 15;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+
+  .myBtn38 {
+    grid-column-start: 20;
+    grid-column-end: 34;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+
+  .myBtn39 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn40 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn41 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn42 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn43 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn44 {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn45 {
+    grid-column-start: 13;
+    grid-column-end: 15;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+
+  .myBtn46 {
+    grid-column-start: 20;
+    grid-column-end: 22;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn47 {
+    grid-column-start: 23;
+    grid-column-end: 25;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn48 {
+    grid-column-start: 26;
+    grid-column-end: 28;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn49 {
+    grid-column-start: 29;
+    grid-column-end: 31;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn50 {
+    grid-column-start: 32;
+    grid-column-end: 34;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn51 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn52 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn53 {
+    grid-column-start: 13;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn54 {
+    grid-column-start: 15;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn55 {
+    grid-column-start: 17;
+    grid-column-end: 19;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn56 {
+    grid-column-start: 19;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .myBtn57 {
+    grid-column-start: 21;
+    grid-column-end: 23;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: orange;
+    padding: 10px;
+    outline: 2px solid darkblue;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .openmodal:hover {
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+    .grid-container {
+      padding-top: 1%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: auto auto auto auto;
+      grid-auto-flow: column;
+      grid-gap: 8px;
+      padding: 20px;
+    }
+  .grid-container > div {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-size: 20px;
+    padding: 8px;  
+  }
+  #grid-item1 {
+    display: grid;
+    grid-template-columns: repeat(33, 1fr);
+    grid-template-rows: 25% repeat(2, 1fr);
+    grid-gap: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    outline: 2px solid rgb(20, 0, 80);
+    border-radius: 2px;
+  }
+
+  #grid-item2 {
+    display: grid;
+    grid-template-columns: repeat(33, 1fr);
+    grid-template-rows: 10% 15% 1fr 1fr 10% 1fr;
+    grid-gap: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    outline: 2px solid rgb(20, 0, 80);
+    border-radius: 2px;
+  }
+
+
+  #grid-item3 {
+    display: grid;
+    grid-template-columns: repeat(33, 1fr);
+    grid-template-rows: 12.5% 12.5% repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    outline: 2px solid rgb(20, 0, 80);
+    border-radius: 2px;
+  }
+
+  #grid-item4 {
+    display: grid;
+    grid-template-columns: repeat(33, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    outline: 2px solid rgb(20, 0, 80);
+    border-radius: 2px;
+  }
+
+
+
+
+#main-title{
+    margin: 0 auto;
+    width: 1300px;
+    font-size: 40px;
+    background-color: orange;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.cd-main-content {
+  text-align: center;
+}
+
+.cd-main-content h1 {
+  font-size: 2rem;
+  color: #64788c;
+  padding: 0;
+}
+
+.cd-btn {
+  float: right;
+  position: relative;
+  padding: 0.8em 2em;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 5px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: -webkit-box-shadow 0.2s;
+  transition: -webkit-box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  margin-right: 20px;
+  outline: 2px solid rgb(20, 0, 80);
+  text-decoration: none;
+}
+
+.cd-btn:hover {
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-main-content h1 {
+    font-size: 3.2rem;
+  }
+}
+
+.cd-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  -webkit-transition: visibility 0s 0.6s;
+  transition: visibility 0s 0.6s;
+  z-index: 999999999999999999999999999999999999999999999999999999;
+}
+
+.cd-panel::after {
+  /* overlay layer */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: background 0.3s 0.3s;
+  transition: background 0.3s 0.3s;
+}
+
+.cd-panel.cd-panel--is-visible {
+  visibility: visible;
+  -webkit-transition: visibility 0s 0s;
+  transition: visibility 0s 0s;
+}
+
+.cd-panel.cd-panel--is-visible::after {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: background 0.3s 0s;
+  transition: background 0.3s 0s;
+}
+
+.cd-panel__header {
+  position: fixed;
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  background: rgba(255, 255, 255, 0.96);
+  z-index: 2;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  -webkit-transition: -webkit-transform 0.3s 0s;
+  transition: -webkit-transform 0.3s 0s;
+  transition: transform 0.3s 0s;
+  transition: transform 0.3s 0s, -webkit-transform 0.3s 0s;
+  -webkit-transform: translateY(-50px);
+      -ms-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+.cd-panel__header h1 {
+  color: darkblue ;
+  padding-left: 5%;
+}
+
+.cd-panel--from-right .cd-panel__header {
+  right: 0;
+}
+
+.cd-panel--from-left .cd-panel__header {
+  left: 0;
+}
+
+.cd-panel--is-visible .cd-panel__header {
+  -webkit-transition: -webkit-transform 0.3s 0.3s;
+  transition: -webkit-transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+  -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-panel__header {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-panel__header {
+    width: 50%;
+  }
+}
+
+.cd-panel__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60px;
+  /* image replacement */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.cd-panel__close::before, .cd-panel__close::after {
+  /* close icon created in CSS */
+  content: '';
+  position: absolute;
+  top: 22px;
+  left: 20px;
+  height: 3px;
+  width: 20px;
+  background-color: #424f5c;
+  /* this fixes a bug where pseudo elements are slighty off position */
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cd-panel__close::before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.cd-panel__close::after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.cd-panel__close:hover {
+  background-color: #424f5c;
+}
+
+.cd-panel__close:hover::before, .cd-panel__close:hover::after {
+  background-color: #ffffff;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+@-webkit-keyframes cd-close-1 {
+  0%, 50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+
+@keyframes cd-close-1 {
+  0%, 50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes cd-close-2 {
+  0%, 50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+}
+
+@keyframes cd-close-2 {
+  0%, 50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+}
+
+.cd-panel__container {
+  position: fixed;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  background: #dbe2e9;
+  z-index: 1;
+  -webkit-transition: -webkit-transform 0.3s 0.3s;
+  transition: -webkit-transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+}
+
+.cd-panel--from-right .cd-panel__container {
+  right: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+
+.cd-panel--from-left .cd-panel__container {
+  left: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+
+.cd-panel--is-visible .cd-panel__container {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-panel__container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-panel__container {
+    width: 50%;
+  }
+}
+
+.cd-panel__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  padding: 70px 5%;
+  overflow: auto;
+  /* smooth scrolling on touch devices */
+  -webkit-overflow-scrolling: touch;
+}
+
+.cd-panel__content p {
+  font-size: 1.4rem;
+  color: #424f5c;
+  line-height: 1.4;
+  margin: 2em 0;
+}
+
+.cd-panel__content p:first-of-type {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-panel__content p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}
