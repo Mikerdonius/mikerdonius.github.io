@@ -813,7 +813,32 @@ p{
     border-radius: 2px;
   }
 
-
+  #grid-item5 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    display: grid;
+    grid-template-columns: repeat(33, 1fr);
+    grid-template-rows: 12.5% repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    outline: 2px solid rgb(20, 0, 80);
+    border-radius: 2px;
+  }
+  
+  .Canvas {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 34;
+    grid-row-start: 20;
+    grid-row-end: span 5;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+  }
 
 
 #main-title{
