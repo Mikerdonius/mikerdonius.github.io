@@ -116,4 +116,13 @@ window.onclick = function(event) {
 	})
 	
 
+	document.getElementById('addButton2').addEventListener('click', () =>{
+		var newdiv = document.createElement('div')
+		newdiv.classList.add('myBtn101')
+		newdiv.classList.add('bugfix')
+		var buttontext = prompt('Fill in text')
+		newdiv.textContent = buttontext
+		document.getElementById('grid-item2').append(newdiv)
+	})	
+
 

@@ -589,6 +589,7 @@ border-radius: 2px;
 }
 
 .myBtn100{
+  color: #fefefe;
   text-align: center;
 grid-column-start: 15;
 grid-column-end: 20;
@@ -603,8 +604,27 @@ border-radius: 2px;
 background-color: #f40;
 }
 
+.myBtn101{
+  color: rgb(3, 0, 187);
+  text-align: center;
+grid-column-start: 15;
+grid-column-end: 20;
+grid-row-start: 3;
+grid-row-end: span 1;
+background-color: white;
+outline: 2px solid darkblue;
+border: none;
+border-radius: 2px;
+}
+.myBtn101.switch-bg {
+background-color: #f40;
+}
+
+
+
 
 .myBtn36 {
+  color: #000000;
   grid-column-start: 10;
   grid-column-end: 25;
   grid-row-start: 1;
@@ -946,7 +966,6 @@ background-color: #f40;
   }
 .grid-container > div {
   background-color: rgb(247, 247, 255);
-  color: white;
   font-size: 20px;
   padding: 8px;  
 }
@@ -1047,7 +1066,7 @@ margin-left: 20px;
 margin-top: 5px;
 }
 
-.add-button2 {
+.addButton2 {
 float: left;
 position: relative;
 padding: 0.8em 2em;
