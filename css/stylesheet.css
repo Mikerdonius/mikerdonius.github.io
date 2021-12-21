@@ -12,7 +12,7 @@ canvas {
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: -1; /* Sit on top */
+pointer-events: none;
 }
 
 h1{
