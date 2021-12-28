@@ -975,6 +975,8 @@ background-color: #f40;
   }
 .grid-container > div {
   background-color: rgb(247, 247, 255);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   font-size: 20px;
   padding: 8px;  
 }
@@ -1036,6 +1038,61 @@ background-color: #f40;
   padding-left: 60px;
   outline: 2px solid rgb(20, 0, 80);
   border-radius: 2px;
+}
+
+#grid-item6 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  outline: 2px solid rgb(20, 0, 80);
+  border-radius: 2px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+#grid-item7 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  outline: 2px solid rgb(20, 0, 80);
+  border-radius: 2px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+#grid-item8 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  outline: 2px solid rgb(20, 0, 80);
+  border-radius: 2px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+#grid-item9 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: span 1;
+  outline: 2px solid rgb(20, 0, 80);
+  border-radius: 2px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+#grid-item10 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: span 1;
+  outline: 2px solid rgb(20, 0, 80);
+  border-radius: 2px;
+  writing-mode: vertical-rl;
+  text-align: center;
 }
 
 .Canvas {
