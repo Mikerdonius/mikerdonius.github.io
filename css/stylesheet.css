@@ -607,6 +607,7 @@ grid-row-end: span 1;
 background-color: orange;
 outline: 2px solid darkblue;
 border: none;
+padding: 20px;
 border-radius: 2px;
 }
 .myBtn100.switch-bg {
@@ -623,6 +624,7 @@ grid-row-end: span 1;
 background-color: white;
 outline: 2px solid darkblue;
 border: none;
+padding: 20px;
 border-radius: 2px;
 }
 .myBtn101.switch-bg {
